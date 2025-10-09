@@ -6,7 +6,7 @@ const font = css`
 	font-family: Orbitron, Arial, Helvetica, sans-serif;
  `
 
-export const OrbitronBold = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronBold = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -15,7 +15,7 @@ export const OrbitronBold = (fontSize: number, lineHeight?: number,): string => 
 	`
 }
 
-export const OrbitronSemibold = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronSemibold = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -24,7 +24,7 @@ export const OrbitronSemibold = (fontSize: number, lineHeight?: number,): string
 	`
 }
 
-export const OrbitronMidBold = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronMidBold = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -33,7 +33,7 @@ export const OrbitronMidBold = (fontSize: number, lineHeight?: number,): string 
 	`
 }
 
-export const OrbitronMedium = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronMedium = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -42,7 +42,7 @@ export const OrbitronMedium = (fontSize: number, lineHeight?: number,): string =
 	`
 }
 
-export const OrbitronMediumReg = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronMediumReg = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -51,7 +51,7 @@ export const OrbitronMediumReg = (fontSize: number, lineHeight?: number,): strin
 	`
 }
 
-export const OrbitronRegular = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronRegular = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
@@ -60,7 +60,7 @@ export const OrbitronRegular = (fontSize: number, lineHeight?: number,): string 
 	`
 }
 
-export const OrbitronLight = (fontSize: number, lineHeight?: number,): string => {
+export const orbitronLight = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
 		font-size: ${fontSize}px;
