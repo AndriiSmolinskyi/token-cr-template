@@ -6,6 +6,15 @@ const font = css`
 	font-family: Orbitron, Arial, Helvetica, sans-serif;
  `
 
+export const orbitronMax = (fontSize: number, lineHeight?: number,): string => {
+	return css`
+		${font}
+		font-size: ${fontSize}px;
+		line-height: ${lineHeight ?? fontSize * 1.4}px;
+		font-weight: 900;
+	`
+}
+
 export const orbitronBold = (fontSize: number, lineHeight?: number,): string => {
 	return css`
 		${font}
