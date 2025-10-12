@@ -15,7 +15,7 @@ export const container = css`
 
 export const header = css`
 	max-width: 1200px;
-	  width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;;
