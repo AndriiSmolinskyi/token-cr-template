@@ -1,16 +1,21 @@
 import React from 'react'
 import {
-	Coin,
-} from '../../assets/icons'
+	Header,
+} from './components/header.component'
+
+import {
+	Main,
+} from './components/main.component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
-		<div className={styles.body}>
-			<Coin width={124} height={44}/>
-			<div>
-				hello
-			</div>
+		<div>
+			<Header />
+			<Main/>
+			<div className={styles.body}>
+
+			Main</div>
 		</div>
 	)
 }
