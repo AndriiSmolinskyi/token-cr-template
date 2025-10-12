@@ -6,16 +6,21 @@ import {
 import {
 	Main,
 } from './components/main.component'
+
+import {
+	Discover,
+} from './components/discoer.component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
 		<div>
 			<Header />
-			<Main/>
+			<Main />
+			<Discover />
 			<div className={styles.body}>
 
-			Main</div>
+			MaindDiscover</div>
 		</div>
 	)
 }

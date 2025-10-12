@@ -10,3 +10,7 @@ export {
 export {
 	default as PumpFun,
 } from './pumpfun.svg?react'
+
+export {
+	default as Copy,
+} from './copy.svg?react'
