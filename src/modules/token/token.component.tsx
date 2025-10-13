@@ -11,6 +11,7 @@ import {
 import {
 	Discover,
 } from './components/discoer.component'
+import Particles from './components/ParticleAnimation/particles-component'
 import {
 	Footer,
 } from './components/footer.component'
@@ -21,6 +22,7 @@ export const App: React.FC = () => {
 		<div className={styles.app}>
 			<Header />
 			<div className={styles.body}>
+				<Particles/>
 				<Main />
 				<Discover />
 				<LiveChart />

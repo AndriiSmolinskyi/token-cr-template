@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react'
 import {
 	useState,
@@ -14,6 +15,9 @@ export const Discover: React.FC = () => {
 	const [token,] = useState('DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2',)
 	const handleCopy = ():void => {
 		navigator.clipboard.writeText(token,)
+			.catch((err,) => {
+				console.error(err,)
+			},)
 	}
 
 	return (
