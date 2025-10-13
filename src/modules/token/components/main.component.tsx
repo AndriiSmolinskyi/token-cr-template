@@ -2,6 +2,9 @@ import React from 'react'
 import {
 	Button, ButtonType, Color, Size,
 } from '../../../shared/components'
+import {
+	Arrow,
+} from '../../../assets/icons'
 import * as styles from './main.style'
 
 export const Main:React.FC = () => {
@@ -30,6 +33,9 @@ export const Main:React.FC = () => {
 						}}
 					/>
 				</div>
+			</div>
+			<div className={styles.arrow}>
+				<Arrow/>
 			</div>
 		</div>
 	)
