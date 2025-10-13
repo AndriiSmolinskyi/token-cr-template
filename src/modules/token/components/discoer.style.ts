@@ -1,11 +1,16 @@
 import {
-	css,
+	css,keyframes,
 } from '@emotion/css'
 import {
 	orbitronRegular, orbitronSemibold,orbitronMax,orbitronMedium,
 } from '../../../shared/styles'
-
+export const pulse = keyframes`
+  0% { opacity: 0.7; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.7; }
+`
 export const discoverWrapper = css`
+	margin-top: 55px;
   position: relative;
   min-height: 300px;
   padding: 0 20px;
@@ -34,18 +39,22 @@ export const tittle = css`
 		 text-transform: uppercase;
 		${orbitronSemibold(40,)}
 	}
+	  &::before {
+    content: "";
+    position: absolute;
+    inset: -100px;
+    background: radial-gradient(circle, rgba(0, 255, 100, 0.25) 0%, transparent 70%);
+    filter: blur(60px);
+    opacity: 0.3;
+    animation: ${pulse} 2s linear infinite;
+    border-radius: 50%;
+  }
+
 `
 export const tittleSpan = css`
 	${orbitronSemibold(40,)}
   color: var(--white);
   text-transform: uppercase;
-`
-
-export const line = css`
-	width: 2px;
-  height: 60px;
-  margin: 0 auto;
-  background: linear-gradient(to bottom, transparent, #fff, transparent); 
 `
 
 export const text = css`
@@ -58,15 +67,32 @@ export const text = css`
   }
 
 `
+
 export const inputWrapper = css`
-	position: relative;
+  position: relative;
   overflow: hidden;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #111;
   max-width: 1004px;
   margin: 0 auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(0,255,100,0.25) 0%, transparent 110%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+  }
+
+  &:hover:before {
+    opacity: 1;
+  }
+
 `
+
 export const label = css`
 	${orbitronMax(20,)}
 	color: var(--white);
@@ -100,9 +126,7 @@ export const input = css`
 	background: #111;
   
 `
-export const img = css`
-	
-`
+
 export const copy = css`
 	${orbitronMedium(26,)}
   border-radius: 10px;

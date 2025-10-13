@@ -2,6 +2,9 @@ import React from 'react'
 import {
 	Header,
 } from './components/header.component'
+import {
+	LiveChart,
+} from './components/liveChart.component'
 
 import {
 	Main,
@@ -18,9 +21,10 @@ export const App: React.FC = () => {
 			<Header />
 			<Main />
 			<Discover />
+			<LiveChart/>
 			<div className={styles.body}>
 
-			MaindDiscover</div>
+			MaindDiscoverLiveChart</div>
 		</div>
 	)
 }

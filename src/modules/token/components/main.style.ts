@@ -1,10 +1,18 @@
 import {
-	css,
+	css, keyframes,
 } from '@emotion/css'
 import {
 	orbitronMax, orbitronSemibold,
 } from '../../../shared/styles'
-
+export const pulse = keyframes`
+  0% { opacity: 0.7; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.7; }
+`
+export const bounce = keyframes`
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(20px); opacity: 0.8; }
+`
 export const main = css`
 	min-height: 80vh;
   display: flex;
@@ -22,10 +30,23 @@ export const mainTitle = css`
  position: relative;
   text-align: center;
 `
+
 export const title = css`
-	${orbitronMax(48,)}
-	color: var(--green);
+  ${orbitronMax(48,)}
+  color: var(--green);
+  
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -100px;
+    background: radial-gradient(circle, rgba(0, 255, 100, 0.25) 0%, transparent 70%);
+    filter: blur(60px);
+    opacity: 0.3;
+    animation: ${pulse} 2s linear infinite;
+    border-radius: 50%;
+  }
 `
+
 export const info = css`
 	color: var(--white);
 	${orbitronSemibold(35,)}
@@ -44,4 +65,11 @@ export const buy = css`
 	margin-top: 15px;
 	display: flex;
 	justify-content: center;
+`
+export const arrow = css`
+  position: relative;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  animation: ${bounce} 1s infinite ease-in-out;
 `

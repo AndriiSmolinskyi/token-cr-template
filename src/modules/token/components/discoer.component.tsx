@@ -1,4 +1,7 @@
 import React from 'react'
+import {
+	useState,
+} from 'react'
 import * as styles from './discoer.style'
 import {
 	Line,
@@ -8,6 +11,11 @@ import {
 	Copy,
 } from '../../../assets/icons'
 export const Discover: React.FC = () => {
+	const [token,] = useState('DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2',)
+	const handleCopy = ():void => {
+		navigator.clipboard.writeText(token,)
+	}
+
 	return (
 		<div className={styles.discoverWrapper}>
 			<div className={styles.main}>
@@ -32,11 +40,11 @@ export const Discover: React.FC = () => {
 								type='text'
 								id='fname'
 								name='fname'
-								defaultValue='DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2'
+								value={token}
 								readOnly
 							/>
 						</div>
-						<button className={styles.copy}>
+						<button onClick={handleCopy} className={styles.copy}>
 							<Copy width={36} height={36}/>
 							<span>Copy</span>
 						</button>
