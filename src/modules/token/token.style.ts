@@ -9,6 +9,7 @@ export const app = css`
 `
 
 export const body = css`
+  position: relative;  
   flex: 1 1 auto;
   overflow-y: auto;
   	&::-webkit-scrollbar {
@@ -32,15 +33,20 @@ export const body = css`
 	}
 `
 
-export const canvasWrapper = css`
- position: absolute;
+export const particles = css`
+  position: absolute;    
   inset: 0;
   pointer-events: none;
-
-`
-export const canvas = css`
-  position: relative;
   z-index: 0;
-  width: 100%;
-  height: 300vh;
+
+  canvas {
+    display: block;    
+    width: 100%;
+    height: 100%;
+  }
+`
+
+export const content = css`
+  position: relative;
+  z-index: 1;           
 `

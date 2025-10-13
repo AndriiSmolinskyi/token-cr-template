@@ -22,11 +22,13 @@ export const App: React.FC = () => {
 		<div className={styles.app}>
 			<Header />
 			<div className={styles.body}>
-				<Particles/>
-				<Main />
-				<Discover />
-				<LiveChart />
-				<Footer/>
+				<Particles className={styles.particles} />
+				<div className={styles.content}>
+					<Main />
+					<Discover />
+					<LiveChart />
+					<Footer />
+				</div>
 			</div>
 		</div>
 	)
