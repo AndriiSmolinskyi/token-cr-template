@@ -5,26 +5,27 @@ import {
 import {
 	LiveChart,
 } from './components/liveChart.component'
-
 import {
 	Main,
 } from './components/main.component'
-
 import {
 	Discover,
 } from './components/discoer.component'
+import {
+	Footer,
+} from './components/footer.component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
-		<div>
+		<div className={styles.app}>
 			<Header />
-			<Main />
-			<Discover />
-			<LiveChart/>
 			<div className={styles.body}>
-
-			MaindDiscoverLiveChart</div>
+				<Main />
+				<Discover />
+				<LiveChart />
+				<Footer/>
+			</div>
 		</div>
 	)
 }

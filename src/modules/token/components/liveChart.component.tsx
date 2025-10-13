@@ -9,7 +9,7 @@ import {
 import * as styles from './liveChart.style'
 export const LiveChart:React.FC = () => {
 	return (
-		<div className={styles.LiveChartWrapper}>
+		<div className={styles.LiveChartWrapper} id='live'>
 			<div className={styles.container}>
 				<div className={styles.title}>
 					<h2>LIVE CHART</h2>
@@ -22,7 +22,7 @@ export const LiveChart:React.FC = () => {
 					</p>
 				</div>
 				<div className={styles.view}>
-					<Button <ButtonType.TEXT>
+					<Button<ButtonType.TEXT>
 						additionalProps={{
 							btnType:  ButtonType.TEXT,
 							text:     'View on Pumpfun',

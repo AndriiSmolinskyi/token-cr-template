@@ -17,7 +17,7 @@ export const Discover: React.FC = () => {
 	}
 
 	return (
-		<div className={styles.discoverWrapper}>
+		<div className={styles.discoverWrapper} id='discovery'>
 			<div className={styles.main}>
 				<div className={styles.tittle}>
 					<h2>
