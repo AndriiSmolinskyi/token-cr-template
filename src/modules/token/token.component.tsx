@@ -21,8 +21,8 @@ export const App: React.FC = () => {
 	return (
 		<div className={styles.app}>
 			<Header />
+			<Particles/>
 			<div className={styles.body}>
-				<Particles/>
 				<Main />
 				<Discover />
 				<LiveChart />
