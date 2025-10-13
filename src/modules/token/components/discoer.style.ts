@@ -43,7 +43,7 @@ export const tittle = css`
     content: "";
     position: absolute;
     inset: -100px;
-    background: radial-gradient(circle, rgba(0, 255, 100, 0.25) 0%, transparent 70%);
+    background: var(--radialGradient);
     filter: blur(60px);
     opacity: 0.3;
     animation: ${pulse} 2s linear infinite;
@@ -73,7 +73,7 @@ export const inputWrapper = css`
   overflow: hidden;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #111;
+  border: 1px solid var(--baseBlack);
   max-width: 1004px;
   margin: 0 auto;
 
@@ -81,7 +81,7 @@ export const inputWrapper = css`
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle, rgba(0,255,100,0.25) 0%, transparent 110%);
+    background: var(--IradialGradient);
     opacity: 0;
     transition: opacity 0.5s ease;
     pointer-events: none;

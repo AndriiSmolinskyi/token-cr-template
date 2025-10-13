@@ -13,12 +13,14 @@ import {
 import {
 	Discover,
 } from './components/discoer.component'
+import Particles from './components/ParticleAnimation/particles-component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
 		<div>
 			<Header />
+			<Particles className={styles.canvasWrapper} quantity={100} />
 			<Main />
 			<Discover />
 			<LiveChart/>
