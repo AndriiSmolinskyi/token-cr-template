@@ -9,7 +9,7 @@ import * as styles from './main.style'
 
 export const Main:React.FC = () => {
 	return (
-		<div className={styles.main}>
+		<div className={styles.main} id='home'>
 			<div className={styles.container}>
 				<div className={styles.mainTitle}>
 					<h1 className={styles.title}>COIN NAME</h1>

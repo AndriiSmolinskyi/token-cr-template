@@ -17,10 +17,10 @@ export const Header: React.FC = () => {
 					<p className={styles.title}>COIN NAME</p>
 				</div>
 				<div className={styles.linkBlock}>
-					<a className={styles.links}>Home</a>
-					<a className={styles.links}>Discovery</a>
-					<a className={styles.links}>Live</a>
-					<a className={styles.links}>Partners</a>
+					<a className={styles.links} href='#home'>Home</a>
+					<a className={styles.links} href='#discovery'>Discovery</a>
+					<a className={styles.links} href='#live'>Live</a>
+					<a className={styles.links} href='#partners'>Partners</a>
 				</div>
 				<div className={styles.iconBlock}>
 					<a className={styles.links}><Telegram width={20} height={20}/></a>

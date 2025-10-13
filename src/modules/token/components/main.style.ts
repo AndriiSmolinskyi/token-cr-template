@@ -39,7 +39,7 @@ export const title = css`
     content: "";
     position: absolute;
     inset: -100px;
-    background: radial-gradient(circle, rgba(0, 255, 100, 0.25) 0%, transparent 70%);
+    background: var(--radialGradient);
     filter: blur(60px);
     opacity: 0.3;
     animation: ${pulse} 2s linear infinite;

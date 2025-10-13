@@ -1,8 +1,12 @@
 import React from 'react'
+import {
+	linkStyle,
+} from './link.style'
 
 type Props = {
   href?: string
-  text: string
+	text: string
+  id?: string
 }
 
 export const LinkButton: React.FC<Props> = ({
@@ -11,6 +15,7 @@ export const LinkButton: React.FC<Props> = ({
 	return (
 		<a
 			href={href}
+			className={linkStyle}
 		>
 			{text}
 		</a>

@@ -11,6 +11,7 @@ export const container = css`
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 2px solid var(--dark-gray);
+	flex-shrink: 0;
 `
 
 export const header = css`
