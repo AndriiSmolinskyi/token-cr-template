@@ -15,18 +15,25 @@ import Particles from './components/ParticleAnimation/particles-component'
 import {
 	Footer,
 } from './components/footer.component'
+import {
+	TrustedBy,
+} from './components/trustedBy.component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
 		<div className={styles.app}>
 			<Header />
-			<Particles/>
 			<div className={styles.body}>
-				<Main />
-				<Discover />
-				<LiveChart />
-				<Footer/>
+				<Particles className={styles.particles} />
+				<div className={styles.content}>
+					<Main />
+					<Discover />
+					<LiveChart />
+					<TrustedBy/>
+					<Footer />
+				</div>
+
 			</div>
 		</div>
 	)

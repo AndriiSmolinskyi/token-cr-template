@@ -16,5 +16,6 @@ injectGlobal`
 		--base-black: ${colors.baseBlack};
 		--radialGradient: ${colors.radialGradient};
 		--IradialGradient: ${colors.IradialGradient};
+		--darkYellow: ${colors.darkYellow};
 	}
 `
