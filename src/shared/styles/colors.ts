@@ -6,6 +6,7 @@ export const colors = {
 	darkGray:        '#111111',
 	gray:            '#464646',
 	baseBlack:       '#000000',
+	darkYellow:			   '#C9B30C',
 	radialGradient:  'radial-gradient(circle, rgba(0, 255, 100, 0.25) 0%, transparent 70%)',
 	IradialGradient: 'radial-gradient(circle, rgba(0,255,100,0.25) 0%, transparent 110%)',
 }

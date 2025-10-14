@@ -9,6 +9,9 @@ export const app = css`
 `
 
 export const body = css`
+
+	overflow-x: hidden;
+	scroll-behavior: smooth;
   position: relative;  
   flex: 1 1 auto;
   overflow-y: auto;
