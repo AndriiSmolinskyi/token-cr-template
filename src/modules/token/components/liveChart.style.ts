@@ -21,9 +21,13 @@ export const title = css`
 
 	
 		h2{
+		transition: all 0.6s ease; 
 		font-weight: 600;
 		font-size: 40px;
-		
+		&:hover{
+		color:var(--white);
+		text-shadow: 15px 0px 3px rgba(255, 255, 255, 0.5);
+	}
 	}
 `
 

@@ -32,6 +32,7 @@ export const mainTitle = css`
 `
 
 export const title = css`
+  
   ${orbitronMax(48,)}
   color: var(--green);
   
@@ -44,6 +45,7 @@ export const title = css`
     opacity: 0.3;
     animation: ${pulse} 2s linear infinite;
     border-radius: 50%;
+	 pointer-events: none; 
   }
 `
 
