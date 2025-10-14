@@ -6,6 +6,7 @@ import {
 } from '../../../shared/styles'
 
 export const LiveChartWrapper = css`
+scroll-margin-top: 100px;
 	margin: 145px 0 160px;
   text-align: center;
 `

@@ -1,6 +1,20 @@
+/* eslint-disable no-unused-expressions */
 import {
 	css,
 } from '@emotion/css'
+import {
+	injectGlobal,
+} from '@emotion/css'
+import orbitronTtf from '../../assets/fonts/Orbitron.ttf'
+
+injectGlobal`
+  @font-face {
+    font-family: 'Orbitron';
+    src: url(${orbitronTtf}) format('truetype');
+    font-weight: 100 1000;
+    font-display: swap;
+  }
+`
 
 const font = css`
 	font-family: Orbitron, Arial, Helvetica, sans-serif;

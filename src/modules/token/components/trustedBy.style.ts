@@ -6,6 +6,7 @@ import {
 } from '../../../shared/styles'
 
 export const trustedByWrapper = css`
+scroll-margin-top: 100px;
  margin-bottom: 200px;
 	margin-top: 100px;
 `
