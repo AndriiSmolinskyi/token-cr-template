@@ -34,7 +34,7 @@ export const titleText = css`
 `
 
 export const text = css`
-  padding-top: 10px;
+  padding-top: 24px;
   padding-bottom: 50px;
   max-width: 630px;
   margin: 0 auto;

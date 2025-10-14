@@ -32,7 +32,7 @@ export const title = css`
 `
 
 export const description = css`
-  padding: 24px 0 70px;
+ padding: 24px 0 32px;
   max-width: 630px;
   margin: 0 auto;
   p{
