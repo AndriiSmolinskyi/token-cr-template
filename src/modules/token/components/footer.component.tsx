@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
 			</div>
 			<div className={styles.line}></div>
 			<div className={styles.footerContainer}>
-				<span className={styles.rights}>© 2025 aura. All rights reserved.</span>
+				<span className={styles.rights}>© 2025 coinname. All rights reserved.</span>
 			</div>
 		</div>
 	)
