@@ -35,7 +35,7 @@ export const title = css`
 
 export const linkBlock = css`
 	display: flex;
-	gap: 40px;
+	gap: 50px;
 
 	@media (max-width: 768px) {
   position: absolute;

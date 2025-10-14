@@ -19,15 +19,14 @@ export const Main:React.FC = () => {
 				</div>
 				<div>
 					<p className={styles.description}>
-			Experience the distinctive atmosphere that surrounds those who hold the
-			power of $aura.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</p>
 				</div>
 				<div className={styles.buy}>
 					<Button<ButtonType.TEXT>
 						additionalProps={{
 							btnType:  ButtonType.TEXT,
-							text:     'Buy',
+							text:     'Buy COIN',
 							size:     Size.MEDIUM,
 							color:   Color.MAIN_COLOR,
 						}}
