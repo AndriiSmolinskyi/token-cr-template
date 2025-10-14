@@ -74,7 +74,7 @@ export default function Particles({
 		if (canvasContainerRef.current && canvasRef.current && context.current) {
 			circles.current.length = 0
 			canvasSize.current.w = canvasContainerRef.current.offsetWidth
-			canvasSize.current.h = window.innerHeight * 2
+			canvasSize.current.h = window.innerHeight * 3
 			canvasRef.current.width = canvasSize.current.w * dpr
 			canvasRef.current.height = canvasSize.current.h * dpr
 			canvasRef.current.style.width = `${canvasSize.current.w}px`

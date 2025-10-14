@@ -16,3 +16,6 @@ export {
 export {
 	default as Arrow,
 } from './arrow.svg?react'
+export {
+	default as Message,
+} from './message.svg?react'

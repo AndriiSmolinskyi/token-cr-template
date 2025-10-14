@@ -15,6 +15,9 @@ import Particles from './components/ParticleAnimation/particles-component'
 import {
 	Footer,
 } from './components/footer.component'
+import {
+	TrustedBy,
+} from './components/trustedBy.component'
 import * as styles from './token.style'
 
 export const App: React.FC = () => {
@@ -27,8 +30,10 @@ export const App: React.FC = () => {
 					<Main />
 					<Discover />
 					<LiveChart />
+					<TrustedBy/>
 					<Footer />
 				</div>
+
 			</div>
 		</div>
 	)
