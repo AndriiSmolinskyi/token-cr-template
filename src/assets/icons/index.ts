@@ -19,3 +19,6 @@ export {
 export {
 	default as Message,
 } from './message.svg?react'
+export {
+	default as Dcopy,
+} from './Dcopy.svg?react'

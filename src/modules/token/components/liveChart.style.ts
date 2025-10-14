@@ -36,6 +36,26 @@ export const description = css`
   }
 `
 export const view = css`
+
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 146px;
+   max-width: 1200px;
+   border: 1px solid #111;
+	
+	&::before {
+	z-index: -1;
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(circle, rgba(0,255,100,0.25) 70%, transparent 100%);
+		opacity: 0;
+		transition: opacity 0.5s ease;
+	}
+	
+	&:hover::before {
+		opacity: 0.4;
+	}
 `

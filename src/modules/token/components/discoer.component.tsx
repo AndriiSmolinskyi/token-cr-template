@@ -49,7 +49,7 @@ export const Discover: React.FC = () => {
 							/>
 						</div>
 						<button onClick={handleCopy} className={styles.copy}>
-							<Copy width={36} height={36}/>
+							<Copy className={styles.links} width={36} height={36}/>
 							<span>Copy</span>
 						</button>
 					</div>
