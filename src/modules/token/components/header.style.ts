@@ -60,6 +60,7 @@ export const linkBlockActive = css`
 `
 
 export const links = css`
+	text-decoration: none;
 	${orbitronRegular(16,)}
 	color: var(--white);
 	cursor: pointer;

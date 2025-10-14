@@ -10,6 +10,7 @@ export const pulse = keyframes`
   100% { opacity: 0.7; }
 `
 export const discoverWrapper = css`
+scroll-margin-top: 100px;
 	margin-top: 55px;
   position: relative;
   min-height: 300px;

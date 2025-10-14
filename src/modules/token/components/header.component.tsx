@@ -27,8 +27,6 @@ export const Header: React.FC = () => {
 						'✕' :
 						'☰'}
 				</div>
-
-				{/* якщо isOpen true — додаємо другий клас */}
 				<div
 					className={`${styles.linkBlock} ${isOpen ?
 						styles.linkBlockActive :
