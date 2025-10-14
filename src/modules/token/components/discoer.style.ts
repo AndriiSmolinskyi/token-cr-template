@@ -49,6 +49,7 @@ export const tittle = css`
     opacity: 0.3;
     animation: ${pulse} 2s linear infinite;
     border-radius: 50%;
+	 pointer-events: none; 
   }
 
 `
