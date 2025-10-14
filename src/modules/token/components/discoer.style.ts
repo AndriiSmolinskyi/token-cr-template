@@ -142,8 +142,8 @@ export const copy = css`
 	background: transparent;
 	color: var(--white);
 	cursor: pointer;
-	transition: 0.3s;
-	transition: all 0.3s ease;
+	/* transition: 0.3s;
+	transition: all 0.3s ease; */
 	&:hover{
 		border: 1px solid rgba(35, 162, 0, 1);
 		background: #fff;
