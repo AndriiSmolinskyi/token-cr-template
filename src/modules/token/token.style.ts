@@ -3,7 +3,7 @@ import {
 } from '@emotion/css'
 
 export const app = css`
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 `
@@ -14,8 +14,8 @@ export const body = css`
 	scroll-behavior: smooth;
   position: relative;  
   flex: 1 1 auto;
-  overflow-y: auto;
-  	&::-webkit-scrollbar {
+  overflow-y: hidden;
+  	/* &::-webkit-scrollbar {
 		width: 7px;
 		height: 7px;
 	}
@@ -33,7 +33,7 @@ export const body = css`
   
    &::-webkit-scrollbar-corner {
 		background-color: transparent;
-	}
+	} */
 `
 
 export const particles = css`
