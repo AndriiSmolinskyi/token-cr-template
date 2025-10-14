@@ -1,20 +1,28 @@
 /* eslint-disable no-console */
-import React from 'react'
-import {
+import React, {
 	useState,
 } from 'react'
 import * as styles from './discoer.style'
 import {
 	Line,
 } from './line.component'
-
 import {
 	Copy,
 } from '../../../assets/icons'
+
 export const Discover: React.FC = () => {
 	const [token,] = useState('DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2',)
-	const handleCopy = ():void => {
-		navigator.clipboard.writeText(token,)
+	const [copied, setCopied,] = useState(false,)
+
+	const handleCopy = (): void => {
+		navigator.clipboard
+			.writeText(token,)
+			.then(() => {
+				setCopied(true,)
+				setTimeout(() => {
+					setCopied(false,)
+				}, 1000,)
+			},)
 			.catch((err,) => {
 				console.error(err,)
 			},)
@@ -28,11 +36,11 @@ export const Discover: React.FC = () => {
 						Discover <span>COIN NAME</span>
 					</h2>
 				</div>
-				<Line/>
+				<Line />
 				<div className={styles.text}>
 					<p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
 					</p>
 				</div>
 				<div className={styles.inputWrapper}>
@@ -49,8 +57,10 @@ export const Discover: React.FC = () => {
 							/>
 						</div>
 						<button onClick={handleCopy} className={styles.copy}>
-							<Copy className={styles.links} width={36} height={36}/>
-							<span>Copy</span>
+							<Copy className={styles.links} width={36} height={36} />
+							{copied ?
+								'Copied' :
+								'Copy'}
 						</button>
 					</div>
 				</div>

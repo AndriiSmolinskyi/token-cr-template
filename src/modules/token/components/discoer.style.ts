@@ -130,35 +130,33 @@ export const input = css`
 
 export const copy = css`
 	${orbitronMedium(26,)}
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 183px;
-  height: 64px;
-  padding: 0 24px;
-  border: 1px solid var(--baseBlack);
-  background: transparent;
-  color: var(--white);
-  cursor: pointer;
-  transition: 0.3s;
-  transition: all 0.3s ease;
-  &:hover{
-    border: 1px solid rgba(35, 162, 0, 1);
-	 background: #fff;
-	 color:var(--baseBlack)
-	 svg path {
-			fill: var(--green);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	width: 183px;
+	height: 64px;
+	padding: 0 24px;
+	border: 1px solid var(--baseBlack);
+	background: transparent;
+	color: var(--white);
+	cursor: pointer;
+	transition: 0.3s;
+	transition: all 0.3s ease;
+	&:hover{
+		border: 1px solid rgba(35, 162, 0, 1);
+		background: #fff;
+		color: var(--base-black);
+		svg{
+			path {
+				fill: var(--base-black);
+			}
 		}
-
-  }
-
-
-	
+	}
 	
 `
 
 export const links = css`
-
+	flex-shrink: 0;
 `
