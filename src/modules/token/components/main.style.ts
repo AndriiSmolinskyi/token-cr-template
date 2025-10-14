@@ -55,7 +55,7 @@ export const info = css`
 `
 
 export const description = css`
- max-width: 600px;
+ max-width: 630px;
 	font-size: 24px;
   margin-bottom: 20px;
   line-height: 1.4;
