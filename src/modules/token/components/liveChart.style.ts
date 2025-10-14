@@ -17,7 +17,7 @@ export const container = css`
   padding: 0 20px;
 `
 export const title = css`
-	margin-bottom: 24px;
+	margin-bottom: 34px;
 
 	
 		h2{
@@ -32,7 +32,7 @@ export const title = css`
 `
 
 export const description = css`
- padding: 24px 0 70px;
+  padding: 24px 0 70px;
   max-width: 630px;
   margin: 0 auto;
   p{
