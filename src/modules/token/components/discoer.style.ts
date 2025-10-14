@@ -26,7 +26,7 @@ export const tittle = css`
 	
   position: relative;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   color: var(--green);
 
   span{
