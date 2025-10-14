@@ -146,7 +146,7 @@ const generateButtonStyles = (styles: ButtonStyles,): string => {
 			fill: var(--${color});
 		}
     	border: 1px solid var(--${borderColor});
-		box-shadow: 4px 4px 20px rgba(35, 162, 0, 0.5), -4px -4px 20px rgba(35, 162, 0, 0.5);
+		box-shadow: 4px 4px 20px rgba(35, 162, 0, 0.25), -4px -4px 20px rgba(35, 162, 0, 0.25);
 
     	&:hover {
       	background: var(--${hoverBgColor});

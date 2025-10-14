@@ -17,7 +17,7 @@ export const footerContainer = css`
 
 export const footerTitle = css` 
 	${orbitronMax(40,)}
- 	margin-bottom: 24px;
+ 	margin-bottom: 30px;
 	color: var(--green);
 `
 
@@ -31,6 +31,7 @@ export const footerSubTitle = css`
 `
 
 export const footerSocial = css`
+	 	margin-top: 10px;
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
@@ -49,4 +50,12 @@ export const footerBottom = css`
 	align-items: center;
   	padding: 0 20px;
 	border-top: 2px solid var(--dark-gray);
+`
+export const line = css`
+  margin-bottom: 40px;
+  margin-top: 10px;
+  width: 100%;
+  height: 2px;
+  background-color: #111;
+
 `

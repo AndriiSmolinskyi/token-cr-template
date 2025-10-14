@@ -59,7 +59,7 @@ export const Message = css`
   transition: all 1s ease;
 	&:hover{
 	
-	border: 1px solid var(--darkYellow);
+	border: 1px solid var(--green);
 	}
 
 `
