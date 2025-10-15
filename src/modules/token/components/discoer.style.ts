@@ -58,7 +58,7 @@ export const tittleSpan = css`
 
 export const text = css`
   margin-top: 24px;
-  max-width: 630px;
+  max-width: 720px;
   margin: 0 auto;
   p{
   	${orbitronRegular(24,)}

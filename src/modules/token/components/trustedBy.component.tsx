@@ -3,9 +3,8 @@ import * as styles from './trustedBy.style'
 import {
 	Line,
 } from './line.component'
-
 import {
-	Message,
+	Tramp,Rn,
 } from '../../../assets/icons'
 
 export const TrustedBy:React.FC = () => {
@@ -18,20 +17,18 @@ export const TrustedBy:React.FC = () => {
 				<Line/>
 				<div className={styles.text}>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.{' '}
+						Real experiences from the $PUMPPOLA community.
 					</p>
 				</div>
 				<div className={styles.trustedByImg}>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
-					<Message className={styles.Message}/>
+					<img src={Tramp} alt='Tramp' className={styles.img} />
+					<img src={Rn} width={404}
+						height={600} alt='Rn' className={styles.img} />
+					<img src={Tramp} alt='Tramp' className={styles.img} />
+					<img src={Tramp} alt='Tramp' className={styles.img} />
+					<img src={Tramp} alt='Tramp' className={styles.img} />
+					<img src={Tramp} alt='Tramp' className={styles.img} />
+
 				</div>
 			</div>
 

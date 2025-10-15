@@ -22,3 +22,9 @@ export {
 export {
 	default as Dcopy,
 } from './Dcopy.svg?react'
+export {
+	default as Tramp,
+} from './tramp.png'
+export {
+	default as Rn,
+} from './rn.png'

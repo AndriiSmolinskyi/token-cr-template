@@ -15,11 +15,12 @@ export const Main:React.FC = () => {
 					<h1 className={styles.title}>PUMP-POLA</h1>
 				</div>
 				<div>
-					<span className={styles.info}>Title</span>
+					<span className={styles.info}>Just drink it, buy it, pump it</span>
 				</div>
 				<div>
 					<p className={styles.description}>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			Just like Coca-Cola in 1886, PUMPPOLA in 2025. We’re entering a market of monopolists becoming the winners.
+					Join us, win with us.
 					</p>
 				</div>
 				<div className={styles.buy}>

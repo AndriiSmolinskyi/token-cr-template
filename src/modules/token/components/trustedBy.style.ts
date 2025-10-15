@@ -7,6 +7,7 @@ import {
 
 export const trustedByWrapper = css`
 	padding: 72px 0px;
+	
 `
 
 export const container = css`
@@ -14,6 +15,9 @@ export const container = css`
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  @media (max-width: 1440px){
+  
+  }
 `
 export const title = css`
 	margin-bottom: 17px;
@@ -59,4 +63,11 @@ export const Message = css`
 	border: 1px solid var(--green);
 	}
 
+`
+
+export const img = css`
+		@media (max-width: 1280px){
+		width: 360px;
+  		height: 535px;
+		} 
 `

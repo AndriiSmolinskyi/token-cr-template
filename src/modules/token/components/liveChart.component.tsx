@@ -15,8 +15,7 @@ export const LiveChart:React.FC = () => {
 				<Line className={styles.linesStyle} />
 				<div className={styles.description}>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.
+						Drink, Buy and Pump it simultaneously.
 					</p>
 				</div>
 				<div className={styles.view}>
