@@ -11,7 +11,7 @@ import {
 } from '../../../assets/icons'
 
 export const Discover: React.FC = () => {
-	const [token,] = useState('DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2',)
+	const [token,] = useState('CD',)
 	const [copied, setCopied,] = useState(false,)
 
 	const handleCopy = (): void => {

@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
 		<div>
 			<div className={styles.footerContainer}>
 				<div>
-					<span className={styles.footerTitle}>PUMP-POLA</span>
+					<span className={styles.footerTitle}>PUMPPOLA</span>
 					<p className={styles.footerText}>Just like Coca-Cola in 1886, PUMPPOLA in 2025. We’re entering a market of monopolists becoming the winners. Join us, win with us.</p>
 				</div>
 				<div className={styles.footerSocial}>
@@ -21,8 +21,15 @@ export const Footer: React.FC = () => {
 				</div>
 				<div className={styles.footerSocial}>
 					<h3 className={styles.footerSubTitle}>Socials</h3>
-					<LinkButton text={'X'} />
-					<LinkButton text={'Telegram'} />
+					<LinkButton text={'X'}
+						target='_blank'
+						rel='noopener noreferrer'
+						href='https://x.com/i/communities/1965434305389236674' />
+					<LinkButton
+						target='_blank'
+						rel='noopener noreferrer'
+						href='https://x.com/i/communities/1965434305389236674'
+						text={'Telegram'} />
 				</div>
 			</div>
 			<div className={styles.footerBottom}>

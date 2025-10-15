@@ -40,8 +40,16 @@ export const Header: React.FC = () => {
 				</div>
 
 				<div className={styles.iconBlock}>
-					<a className={styles.links}><Telegram width={20} height={20} /></a>
-					<a className={styles.links}><Twitter width={20} height={20} /></a>
+					<a target='_blank'
+						rel='noopener noreferrer'
+						href='https://x.com/i/communities/1965434305389236674'
+						className={styles.links}>
+						<Telegram width={20} height={20} /></a>
+					<a target='_blank'
+						rel='noopener noreferrer'
+						href='https://x.com/i/communities/1965434305389236674'
+						className={styles.links}>
+						<Twitter width={20} height={20} /></a>
 					<a className={styles.links}><PumpFun width={20} height={20} /></a>
 					<Button
 						additionalProps={{
