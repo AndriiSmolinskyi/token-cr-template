@@ -1,11 +1,20 @@
 import React from 'react'
-
+import {
+	cx,
+} from '@emotion/css'
 import {
 	line,
 } from './line.style'
-export const Line: React.FC = () => {
+
+type LineProps = React.HTMLAttributes<HTMLDivElement> & {
+  className?: string
+}
+
+export const Line: React.FC<LineProps> = ({
+	className,
+},) => {
 	return (
-		<div className={line}></div>
+		<div className={cx(line, className && className,)}></div>
 	)
 }
 

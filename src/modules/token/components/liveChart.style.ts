@@ -57,3 +57,7 @@ export const view = css`
 		opacity: 0.4;
 	}
 `
+
+export const linesStyle = css`
+	margin-top: 30px;
+`

@@ -5,14 +5,14 @@ import {
 import {
 	Button, ButtonType, Color, Size,
 } from '../../../shared/components'
-
 import * as styles from './liveChart.style'
+
 export const LiveChart:React.FC = () => {
 	return (
 		<div className={styles.LiveChartWrapper} id='live'>
 			<div className={styles.container}>
 				<h2 className={styles.title}>LIVE CHART</h2>
-				<Line/>
+				<Line className={styles.linesStyle} />
 				<div className={styles.description}>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
