@@ -2,6 +2,9 @@ import React, {
 	useState,
 } from 'react'
 import {
+	cx,
+} from '@emotion/css'
+import {
 	Telegram, Twitter, PumpFun,
 } from '../../../assets/icons'
 import {
@@ -28,9 +31,7 @@ export const Header: React.FC = () => {
 						'☰'}
 				</div>
 				<div
-					className={`${styles.linkBlock} ${isOpen ?
-						styles.linkBlockActive :
-						''}`}
+					className={cx(styles.linkBlock, isOpen && styles.linkBlockActive,)}
 				>
 					<a className={styles.links} href='#home'>Home</a>
 					<a className={styles.links} href='#discovery'>Discovery</a>

@@ -2,20 +2,14 @@ import {
 	css,
 } from '@emotion/css'
 
-export const app = css`
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-`
-
 export const body = css`
-	
+  	height: calc(100vh - 66px);   
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-  position: relative;  
-  flex: 1 1 auto;
-  overflow-y: hidden;
-  	/* &::-webkit-scrollbar {
+	position: relative;  
+	flex: 1 1 auto;
+	overflow-y: auto;;
+  	&::-webkit-scrollbar {
 		width: 7px;
 		height: 7px;
 	}
@@ -33,23 +27,21 @@ export const body = css`
   
    &::-webkit-scrollbar-corner {
 		background-color: transparent;
-	} */
+	}
 `
 
 export const particles = css`
-  position: absolute;    
+  position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 0;
+  overflow: hidden;
+  height: 100dvh; 
+  width: 100vw;
 
   canvas {
-    display: block;    
+    display: block;
     width: 100%;
     height: 100%;
   }
-`
-
-export const content = css`
-  position: relative;
-  z-index: 1;           
 `

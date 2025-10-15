@@ -22,18 +22,15 @@ import * as styles from './token.style'
 
 export const App: React.FC = () => {
 	return (
-		<div className={styles.app}>
+		<div>
 			<Header />
 			<div className={styles.body}>
 				<Particles className={styles.particles} />
-				<div className={styles.content}>
-					<Main />
-					<Discover />
-					<LiveChart />
-					<TrustedBy/>
-					<Footer />
-				</div>
-
+				<Main />
+				<Discover />
+				<LiveChart />
+				<TrustedBy/>
+				<Footer />
 			</div>
 		</div>
 	)

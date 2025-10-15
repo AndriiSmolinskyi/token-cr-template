@@ -12,8 +12,6 @@ export const container = css`
 	justify-content: space-between;
 	border-bottom: 2px solid var(--dark-gray);
 	flex-shrink: 0;
-	position: fixed;
-	z-index: 100;
 	background-color: var(--black);
 
 	@media (max-width: 1200px) {

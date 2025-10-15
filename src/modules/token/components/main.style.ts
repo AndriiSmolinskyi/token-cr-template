@@ -14,8 +14,8 @@ export const bounce = keyframes`
   50% { transform: translateY(20px); opacity: 0.8; }
 `
 export const main = css`
-	padding-top: calc(144px + 66px);
-	padding-bottom: 174px;
+	padding-top: 144px;
+	padding-bottom: 72px;
   display: flex;
   flex-direction: column;
   justify-content: center;

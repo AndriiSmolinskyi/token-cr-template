@@ -6,29 +6,23 @@ import {
 } from '../../../shared/styles'
 
 export const LiveChartWrapper = css`
-scroll-margin-top: 100px;
-	margin: 145px 0 160px;
-  text-align: center;
+  	text-align: center;
+	padding: 72px 0px;
 `
 export const container = css`
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
 `
 export const title = css`
-	margin-bottom: 34px;
-
-	
-		h2{
+		margin-bottom: 34px;
 		transition: all 0.6s ease; 
 		font-weight: 600;
 		font-size: 40px;
 		&:hover{
 		color:var(--white);
 		text-shadow: 15px 0px 3px rgba(255, 255, 255, 0.5);
-	}
-	}
+		}
 `
 
 export const description = css`

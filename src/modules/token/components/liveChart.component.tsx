@@ -11,14 +11,12 @@ export const LiveChart:React.FC = () => {
 	return (
 		<div className={styles.LiveChartWrapper} id='live'>
 			<div className={styles.container}>
-				<div className={styles.title}>
-					<h2>LIVE CHART</h2>
-				</div>
+				<h2 className={styles.title}>LIVE CHART</h2>
 				<Line/>
 				<div className={styles.description}>
 					<p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
 					</p>
 				</div>
 				<div className={styles.view}>

@@ -6,16 +6,13 @@ import {
 } from '../../../shared/styles'
 
 export const trustedByWrapper = css`
-scroll-margin-top: 100px;
- margin-bottom: 200px;
-	margin-top: 100px;
+	padding: 72px 0px;
 `
 
 export const container = css`
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
   text-align: center;
 `
 export const title = css`

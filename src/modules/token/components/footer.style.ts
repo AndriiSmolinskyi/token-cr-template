@@ -8,11 +8,10 @@ import {
 export const footerContainer = css` 
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 72px 20px 40px 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 40px;
 `
 
 export const footerTitle = css` 
@@ -51,11 +50,4 @@ export const footerBottom = css`
   	padding: 0 20px;
 	border-top: 2px solid var(--dark-gray);
 `
-export const line = css`
-  margin-bottom: 40px;
-  margin-top: 10px;
-  width: 100%;
-  height: 2px;
-  background-color: #111;
 
-`

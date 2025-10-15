@@ -25,8 +25,7 @@ export const Footer: React.FC = () => {
 					<LinkButton text={'Telegram'} />
 				</div>
 			</div>
-			<div className={styles.line}></div>
-			<div className={styles.footerContainer}>
+			<div className={styles.footerBottom}>
 				<span className={styles.rights}>© 2025 coinname. All rights reserved.</span>
 			</div>
 		</div>
