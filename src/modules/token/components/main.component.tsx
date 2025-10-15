@@ -12,10 +12,10 @@ export const Main:React.FC = () => {
 		<div className={styles.main} id='home'>
 			<div className={styles.container}>
 				<div className={styles.mainTitle}>
-					<h1 className={styles.title}>COIN NAME</h1>
+					<h1 className={styles.title}>PUMP-POLA</h1>
 				</div>
 				<div>
-					<span className={styles.info}>COIN NAME</span>
+					<span className={styles.info}>Title</span>
 				</div>
 				<div>
 					<p className={styles.description}>

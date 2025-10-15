@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
 		<div>
 			<div className={styles.footerContainer}>
 				<div>
-					<span className={styles.footerTitle}>COIN NAME</span>
+					<span className={styles.footerTitle}>PUMP-POLA</span>
 					<p className={styles.footerText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 				<div className={styles.footerSocial}>

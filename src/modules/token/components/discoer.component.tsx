@@ -33,7 +33,7 @@ export const Discover: React.FC = () => {
 			<div className={styles.main}>
 				<div className={styles.tittle}>
 					<h2>
-						Discover <span>COIN NAME</span>
+						Discover <span>PumpPOla</span>
 					</h2>
 				</div>
 				<Line />
