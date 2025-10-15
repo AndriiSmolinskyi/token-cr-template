@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
 			<div className={styles.footerContainer}>
 				<div>
 					<span className={styles.footerTitle}>PUMP-POLA</span>
-					<p className={styles.footerText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p className={styles.footerText}>Just like Coca-Cola in 1886, PUMPPOLA in 2025. We’re entering a market of monopolists becoming the winners. Join us, win with us.</p>
 				</div>
 				<div className={styles.footerSocial}>
 					<h3 className={styles.footerSubTitle}>Links</h3>
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
 			</div>
 			<div className={styles.footerBottom}>
 				<div className={styles.footerBottomBlock}>
-					<span className={styles.rights}>© 2025 coinname. All rights reserved.</span>
+					<span className={styles.rights}>© 2025 PUMPPOLA. All rights reserved.</span>
 
 				</div>
 			</div>

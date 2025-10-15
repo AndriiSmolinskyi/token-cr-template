@@ -12,7 +12,7 @@ export const Main:React.FC = () => {
 		<div className={styles.main} id='home'>
 			<div className={styles.container}>
 				<div className={styles.mainTitle}>
-					<h1 className={styles.title}>PUMP-POLA</h1>
+					<h1 className={styles.title}>$PUMPPOLA</h1>
 				</div>
 				<div>
 					<span className={styles.info}>Just drink it, buy it, pump it</span>
@@ -27,7 +27,7 @@ export const Main:React.FC = () => {
 					<Button<ButtonType.TEXT>
 						additionalProps={{
 							btnType:  ButtonType.TEXT,
-							text:     'Buy COIN',
+							text:     'Buy $PUMPPOLA',
 							size:     Size.MEDIUM,
 							color:   Color.MAIN_COLOR,
 						}}

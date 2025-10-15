@@ -2,7 +2,7 @@ import {
 	css,
 } from '@emotion/css'
 import {
-	orbitronMax, orbitronRegular, orbitronBold,
+	orbitronSemibold, orbitronRegular, orbitronBold,
 } from '../../../shared/styles'
 
 export const footerContainer = css` 
@@ -15,7 +15,7 @@ export const footerContainer = css`
 `
 
 export const footerTitle = css` 
-	${orbitronMax(40,)}
+	${orbitronSemibold(40,)}
  	margin-bottom: 30px;
 	color: var(--green);
 `

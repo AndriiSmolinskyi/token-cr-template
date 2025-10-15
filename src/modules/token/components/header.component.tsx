@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.header}>
-				<p className={styles.title}>Pump-Pola</p>
+				<p className={styles.title}>PumpPola</p>
 
 				<div
 					className={styles.burger}

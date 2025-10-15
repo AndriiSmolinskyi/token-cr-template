@@ -2,7 +2,7 @@ import {
 	css,
 } from '@emotion/css'
 import {
-	orbitronMax, orbitronRegular,
+	orbitronSemibold, orbitronRegular,
 } from '../../../shared/styles'
 
 export const container = css`
@@ -30,7 +30,8 @@ export const header = css`
 `
 
 export const title = css`
-	${orbitronMax(32,)}
+	text-transform: uppercase;
+	${orbitronSemibold(32,)}
 	color: var(--green);
 `
 

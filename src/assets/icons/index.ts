@@ -28,3 +28,15 @@ export {
 export {
 	default as Rn,
 } from './rn.png'
+export {
+	default as Shaq,
+} from './shaq.png'
+export {
+	default as Brad,
+} from './brad.png'
+export {
+	default as Messi,
+} from './messi.png'
+export {
+	default as Makron,
+} from './makron.png'

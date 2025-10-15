@@ -4,7 +4,7 @@ import {
 	Line,
 } from './line.component'
 import {
-	Tramp,Rn,
+	Tramp,Rn,Shaq,Brad,Makron,Messi,
 } from '../../../assets/icons'
 
 export const TrustedBy:React.FC = () => {
@@ -22,12 +22,11 @@ export const TrustedBy:React.FC = () => {
 				</div>
 				<div className={styles.trustedByImg}>
 					<img src={Tramp} alt='Tramp' className={styles.img} />
-					<img src={Rn} width={404}
-						height={600} alt='Rn' className={styles.img} />
-					<img src={Tramp} alt='Tramp' className={styles.img} />
-					<img src={Tramp} alt='Tramp' className={styles.img} />
-					<img src={Tramp} alt='Tramp' className={styles.img} />
-					<img src={Tramp} alt='Tramp' className={styles.img} />
+					<img src={Rn} alt='Rn' className={styles.img} />
+					<img src={Shaq} alt='Shaq' className={styles.img} />
+					<img src={Brad} alt='Brad' className={styles.img} />
+					<img src={Makron} alt='Makron' className={styles.img} />
+					<img src={Messi} alt='Messi' className={styles.img} />
 
 				</div>
 			</div>

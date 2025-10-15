@@ -15,7 +15,7 @@ export const LiveChart:React.FC = () => {
 				<Line className={styles.linesStyle} />
 				<div className={styles.description}>
 					<p>
-						Drink, Buy and Pump it simultaneously.
+						Drink, Buy and Pump it simultaneously. View live progression of PUMPPOLA live and be the part of it.
 					</p>
 				</div>
 				<div className={styles.view}>

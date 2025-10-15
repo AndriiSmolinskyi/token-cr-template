@@ -39,7 +39,7 @@ export const Discover: React.FC = () => {
 				<Line />
 				<div className={styles.text}>
 					<p>
-						PUMPPOLA token is the invisible current behind the can - the magnetic pulse that draws millions, the fizzy spark that sets it apart, and the digital emblem that makes every sip unforgettable. Exeprience it yourself.
+						PUMPPOLA token is the invisible current behind the can - the magnetic pulse that draws millions, the fizzy spark that sets it apart, and the digital emblem that makes every sip unforgettable. Experience it yourself.
 					</p>
 				</div>
 				<div className={styles.inputWrapper}>
