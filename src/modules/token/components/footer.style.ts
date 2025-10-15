@@ -42,12 +42,17 @@ export const rights = css`
 `
 
 export const footerBottom = css`
+	width: 100%;
+	height: 66px;
+	border-top: 2px solid var(--dark-gray);
+`
+
+export const footerBottomBlock = css`
 	max-width: 1000px;
 	height: 66px;
   	margin: 0 auto;
 	display: flex;
 	align-items: center;
   	padding: 0 20px;
-	border-top: 2px solid var(--dark-gray);
 `
 
