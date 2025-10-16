@@ -4,6 +4,7 @@ import {
 } from '../../../shared/components/link-button/link-button.component'
 import {
 	TWITTER_LINK,
+	TELEGRAM_LINK,
 } from '../token.constants'
 import * as styles from './footer.style'
 
@@ -32,7 +33,7 @@ export const Footer: React.FC = () => {
 					<LinkButton
 						target='_blank'
 						rel='noopener noreferrer'
-						href={TWITTER_LINK}
+						href={TELEGRAM_LINK}
 						text={'Telegram'} />
 				</div>
 			</div>

@@ -13,6 +13,7 @@ import {
 import {
 	TOKEN_LINK,
 	TWITTER_LINK,
+	TELEGRAM_LINK,
 } from '../token.constants'
 import * as styles from './header.style'
 
@@ -51,7 +52,7 @@ export const Header: React.FC = () => {
 					<a
 						target='_blank'
 						rel='noopener noreferrer'
-						href={TWITTER_LINK}
+						href={TELEGRAM_LINK}
 						className={styles.links}
 					>
 						<Telegram width={20} height={20} />
