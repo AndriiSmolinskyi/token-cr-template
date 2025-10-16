@@ -2,6 +2,9 @@ import React from 'react'
 import {
 	LinkButton,
 } from '../../../shared/components/link-button/link-button.component'
+import {
+	TWITTER_LINK,
+} from '../token.constants'
 import * as styles from './footer.style'
 
 export const Footer: React.FC = () => {
@@ -24,11 +27,12 @@ export const Footer: React.FC = () => {
 					<LinkButton text={'X'}
 						target='_blank'
 						rel='noopener noreferrer'
-						href='https://x.com/i/communities/1965434305389236674' />
+						href={TWITTER_LINK}
+					/>
 					<LinkButton
 						target='_blank'
 						rel='noopener noreferrer'
-						href='https://x.com/i/communities/1965434305389236674'
+						href={TWITTER_LINK}
 						text={'Telegram'} />
 				</div>
 			</div>

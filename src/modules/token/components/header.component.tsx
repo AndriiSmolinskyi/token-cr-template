@@ -10,10 +10,18 @@ import {
 import {
 	Button, ButtonType, Color, Size,
 } from '../../../shared/components'
+import {
+	TOKEN_LINK,
+	TWITTER_LINK,
+} from '../token.constants'
 import * as styles from './header.style'
 
 export const Header: React.FC = () => {
 	const [isOpen, setIsOpen,] = useState(false,)
+
+	const handleBuyClick = (): void => {
+		window.open(TOKEN_LINK, '_blank', 'noopener,noreferrer',)
+	}
 
 	return (
 		<div className={styles.container}>
@@ -40,18 +48,31 @@ export const Header: React.FC = () => {
 				</div>
 
 				<div className={styles.iconBlock}>
-					<a target='_blank'
+					<a
+						target='_blank'
 						rel='noopener noreferrer'
-						href='https://x.com/i/communities/1965434305389236674'
-						className={styles.links}>
-						<Telegram width={20} height={20} /></a>
-					<a target='_blank'
+						href={TWITTER_LINK}
+						className={styles.links}
+					>
+						<Telegram width={20} height={20} />
+					</a>
+					<a
+						target='_blank'
 						rel='noopener noreferrer'
-						href='https://x.com/i/communities/1965434305389236674'
-						className={styles.links}>
-						<Twitter width={20} height={20} /></a>
-					<a className={styles.links}><PumpFun width={20} height={20} /></a>
+						href={TWITTER_LINK}
+						className={styles.links}
+					>
+						<Twitter width={20} height={20} />
+					</a>
+					<a className={styles.links}
+						target='_blank'
+						rel='noopener noreferrer'
+						href={TOKEN_LINK}
+					>
+						<PumpFun width={20} height={20} />
+					</a>
 					<Button
+						onClick={handleBuyClick}
 						additionalProps={{
 							btnType: ButtonType.TEXT,
 							text:    'Buy',

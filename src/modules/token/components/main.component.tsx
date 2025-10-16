@@ -5,9 +5,16 @@ import {
 import {
 	Arrow,
 } from '../../../assets/icons'
+import {
+	TOKEN_LINK,
+} from '../token.constants'
 import * as styles from './main.style'
 
-export const Main:React.FC = () => {
+export const Main: React.FC = () => {
+	const handleBuyClick = (): void => {
+		window.open(TOKEN_LINK, '_blank', 'noopener,noreferrer',)
+	}
+
 	return (
 		<div className={styles.main} id='home'>
 			<div className={styles.container}>
@@ -25,6 +32,7 @@ export const Main:React.FC = () => {
 				</div>
 				<div className={styles.buy}>
 					<Button<ButtonType.TEXT>
+						onClick={handleBuyClick}
 						additionalProps={{
 							btnType:  ButtonType.TEXT,
 							text:     'Buy $PUMPPOLA',

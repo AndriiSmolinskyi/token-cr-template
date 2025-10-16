@@ -5,9 +5,16 @@ import {
 import {
 	Button, ButtonType, Color, Size,
 } from '../../../shared/components'
+import {
+	TOKEN_LINK,
+} from '../token.constants'
 import * as styles from './liveChart.style'
 
-export const LiveChart:React.FC = () => {
+export const LiveChart: React.FC = () => {
+	const handleBuyClick = (): void => {
+		window.open(TOKEN_LINK, '_blank', 'noopener,noreferrer',)
+	}
+
 	return (
 		<div className={styles.LiveChartWrapper} id='live'>
 			<div className={styles.container}>
@@ -20,6 +27,7 @@ export const LiveChart:React.FC = () => {
 				</div>
 				<div className={styles.view}>
 					<Button<ButtonType.TEXT>
+						onClick={handleBuyClick}
 						additionalProps={{
 							btnType:  ButtonType.TEXT,
 							text:     'View on Pumpfun',
